@@ -1,0 +1,19 @@
+[project]
+name = "escopo-mcp"
+version = "0.1.0"
+description = "testes de mcps"
+requires-python = ">=3.13"
+dependencies = [
+    "descope-mcp>=0.1.0",
+    "fastmcp<4",
+    "httpx>=0.28.1",
+    "mcp<2",
+    "python-dotenv>=1.2.3"
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
